@@ -1,5 +1,10 @@
 @charset "UTF-8";
-
+  
+:root{
+   --fonte1: "Rye", serif;
+   --fonte2: " Special Elite", system-ui;
+   --fonte3: "Alfa Slab One", serif;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -8,6 +13,7 @@
 html,body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
  header{
@@ -19,6 +25,7 @@ html,body{
  header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
  }
 
  header > p {
@@ -41,6 +48,7 @@ html,body{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
  }
 
  section.normal {
